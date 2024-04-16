@@ -1,0 +1,434 @@
+2024-04-02 10:49:57,994 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.2.Final
+2024-04-02 10:49:58,767 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.2.Final
+2024-04-02 10:49:58,778 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2024-04-02 10:49:58,899 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 31.0.0.Final (WildFly Core 23.0.1.Final) starting
+2024-04-02 10:49:58,901 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\medbk\fleet-manager\target\server\jboss-modules.jar
+	java.class.version = 65.0
+	java.home = C:\Program Files\Java\jdk-21
+	java.io.tmpdir = C:\Users\medbk\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\xampp\php;C:\composer;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Git LFS;C:\Program Files\Conan\conan;C:\Users\medbk\AppData\Local\Microsoft\WindowsApps;C:\Users\medbk\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\bin;C:\TDM-GCC-64\bin;C:\Users\medbk\AppData\Roaming\Composer\vendor\bin;C:\oraclexe\app;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.2\bin;;C:\Program Files (x86)\GnuWin32\bin;C:\Users\medbk\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2023.2\bin;;C:\Users\medbk\OneDrive\Documents\New folder\New folder\flutter\bin;C:\Users\medbk\AppData\Local\Pub\Cache\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-21\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 21.0.1+12-LTS-29
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 21
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 21.0.1
+	java.version.date = 2023-10-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 21
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 21.0.1+12-LTS-29
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\medbk\fleet-manager\target\server
+	jboss.host.name = laptop-a3e2co95
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = laptop-a3e2co95
+	jboss.qualified.host.name = laptop-a3e2co95
+	jboss.server.base.dir = C:\Users\medbk\fleet-manager\target\server\standalone
+	jboss.server.config.dir = C:\Users\medbk\fleet-manager\target\server\standalone\configuration
+	jboss.server.data.dir = C:\Users\medbk\fleet-manager\target\server\standalone\data
+	jboss.server.log.dir = C:\Users\medbk\fleet-manager\target\server\standalone\log
+	jboss.server.name = laptop-a3e2co95
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\medbk\fleet-manager\target\server\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\medbk\fleet-manager\target\server\standalone\configuration\logging.properties
+	module.path = C:\Users\medbk\fleet-manager\target\server\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\medbk\fleet-manager\target\server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	stderr.encoding = cp437
+	stdout.encoding = cp437
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-21\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\medbk\fleet-manager\target\server\jboss-modules.jar -mp C:\Users\medbk\fleet-manager\target\server\modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = US
+	user.dir = C:\Users\medbk\fleet-manager
+	user.home = C:\Users\medbk
+	user.language = en
+	user.name = medbk
+	user.script = 
+	user.timezone = Africa/Tunis
+	user.variant = 
+2024-04-02 10:49:58,902 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djava.security.manager=allow -Djboss.home.dir=C:\Users\medbk\fleet-manager\target\server -Djboss.server.base.dir=C:\Users\medbk\fleet-manager\target\server\standalone -Djboss.server.log.dir=C:\Users\medbk\fleet-manager\target\server\standalone\log -Djboss.server.config.dir=C:\Users\medbk\fleet-manager\target\server\standalone\configuration -Dorg.jboss.boot.log.file=C:\Users\medbk\fleet-manager\target\server\standalone\log\server.log -Dlogging.configuration=file:C:\Users\medbk\fleet-manager\target\server\standalone\configuration\logging.properties 
+2024-04-02 10:49:59,887 INFO  [org.wildfly.security] (ServerService Thread Pool -- 17) ELY00001: WildFly Elytron version 2.2.3.Final
+2024-04-02 10:50:00,811 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2024-04-02 10:50:00,845 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.12.Final
+2024-04-02 10:50:00,864 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.12.Final
+2024-04-02 10:50:00,927 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 42) WFLYRS0016: RESTEasy version 6.2.7.Final
+2024-04-02 10:50:00,931 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
+2024-04-02 10:50:00,940 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 39) WFLYHEALTH0001: Activating Base Health Subsystem
+2024-04-02 10:50:00,964 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 40) WFLYCLINF0001: Activating Infinispan subsystem.
+2024-04-02 10:50:00,966 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 57) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2024-04-02 10:50:00,969 INFO  [org.wildfly.extension.microprofile.telemetry] (ServerService Thread Pool -- 50) WFLYMPTEL0001: Activating MicroProfile Telemetry Subsystem
+2024-04-02 10:50:00,969 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 48) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2024-04-02 10:50:00,970 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 51) WFLYNAM0001: Activating Naming Subsystem
+2024-04-02 10:50:01,010 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 49) WFLYMPHEALTH0001: Activating MicroProfile Health Subsystem
+2024-04-02 10:50:01,012 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 47) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2024-04-02 10:50:01,085 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2024-04-02 10:50:01,088 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.27.Final
+2024-04-02 10:50:01,155 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.3.10.Final starting
+2024-04-02 10:50:01,200 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.8.Final)
+2024-04-02 10:50:01,259 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY00023: KeyStore file 'C:\Users\medbk\fleet-manager\target\server\standalone\configuration\application.keystore' does not exist. Used blank.
+2024-04-02 10:50:01,299 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore C:\Users\medbk\fleet-manager\target\server\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2024-04-02 10:50:01,368 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2024-04-02 10:50:01,371 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) Queuing requests.
+2024-04-02 10:50:01,380 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2024-04-02 10:50:01,511 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-5) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+2024-04-02 10:50:01,573 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\medbk\fleet-manager\target\server\standalone\deployments
+2024-04-02 10:50:01,579 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2024-04-02 10:50:01,944 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-04-02 10:50:01,948 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-04-02 10:50:01,948 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2024-04-02 10:50:01,950 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 31.0.0.Final (WildFly Core 23.0.1.Final) started in 4350ms - Started 196 of 288 services (132 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-04-02 10:50:04,151 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 10:50:04,776 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 10:50:05,035 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 8.0.1.Final
+2024-04-02 10:50:05,375 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 5.1.2 (Final)
+2024-04-02 10:50:06,781 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 60) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 10:50:06,851 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 10:50:06,938 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 10:53:24,026 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 10:53:24,061 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 45ms
+2024-04-02 10:53:24,065 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 10:53:24,199 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 10:53:24,601 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 64) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 10:53:24,607 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 10:53:24,688 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 10:53:24,724 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 10:53:24,737 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 14ms
+2024-04-02 10:53:24,738 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 10:53:24,828 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 10:53:25,037 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 65) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 10:53:25,040 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 10:53:25,056 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 10:53:25,076 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 10:53:25,087 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 11ms
+2024-04-02 10:53:25,088 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 10:53:25,178 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 10:53:25,379 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 10:53:25,382 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 10:53:25,401 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 10:53:25,428 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 10:53:25,437 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 10ms
+2024-04-02 10:53:25,455 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 10:53:25,543 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 10:53:25,641 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 10:53:25,832 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 64) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 10:53:25,835 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 10:53:25,856 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 10:55:55,218 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 10:55:55,227 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 9ms
+2024-04-02 10:55:55,242 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 10:56:02,021 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 10:56:02,087 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 10:56:02,283 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 10:56:02,287 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 10:56:02,306 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 10:56:13,152 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 10:56:13,161 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 8ms
+2024-04-02 10:56:13,176 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 10:56:15,938 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 10:56:16,026 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 10:56:16,271 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 10:56:16,274 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 10:56:16,292 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:02:38,475 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:02:38,485 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 10ms
+2024-04-02 11:02:38,486 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:02:38,544 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:02:38,724 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:02:38,727 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:02:38,752 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:02:38,780 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:02:38,794 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 15ms
+2024-04-02 11:02:38,796 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:02:38,852 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:02:39,042 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 68) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:02:39,044 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:02:39,060 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:02:39,088 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:02:39,119 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 32ms
+2024-04-02 11:02:39,124 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:02:39,233 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:02:39,485 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 71) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:02:39,488 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:02:39,509 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:02:39,541 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:02:39,549 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 8ms
+2024-04-02 11:02:39,550 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:02:39,618 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:02:39,772 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 71) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:02:39,774 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:02:39,790 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:02:39,794 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:02:39,801 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:02:39,814 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:02:39,874 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:02:39,923 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:02:40,098 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 71) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:02:40,101 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:02:40,116 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:03:41,033 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:03:41,040 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 6ms
+2024-04-02 11:03:41,041 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:03:41,085 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:03:41,224 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 73) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:03:41,226 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:03:41,241 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:03:41,261 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:03:41,269 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 8ms
+2024-04-02 11:03:41,270 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:03:41,325 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:03:41,458 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 73) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:03:41,461 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:03:41,479 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:03:41,500 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:03:41,510 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 9ms
+2024-04-02 11:03:41,511 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:03:41,575 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:03:41,730 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 72) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:03:41,733 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:03:41,748 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:03:41,769 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:03:41,776 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:03:41,777 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:03:41,824 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:03:41,950 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 74) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:03:41,952 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:03:41,968 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:03:41,974 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:03:41,980 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 6ms
+2024-04-02 11:03:41,993 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:03:42,054 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:03:42,095 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:03:42,219 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 72) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:03:42,222 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:03:42,236 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:05:13,042 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:05:13,049 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:05:13,050 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:05:13,098 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:05:13,257 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 72) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:05:13,260 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:05:13,279 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:05:13,308 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:05:13,315 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:05:13,316 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:05:13,379 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:05:13,509 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 72) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:05:13,511 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:05:13,529 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:05:13,574 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:05:13,581 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:05:13,582 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:05:13,627 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:05:13,743 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 77) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:05:13,745 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:05:13,757 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:05:13,776 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:05:13,782 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 6ms
+2024-04-02 11:05:13,783 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:05:13,823 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:05:13,965 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:05:13,968 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:05:13,985 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:05:13,995 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:05:14,002 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:05:14,018 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:05:14,118 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:05:14,172 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:05:14,306 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:05:14,309 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:05:14,324 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:08:32,741 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:08:32,748 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 8ms
+2024-04-02 11:08:32,766 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:08:43,979 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:08:44,022 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:08:44,201 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 79) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:08:44,203 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:08:44,223 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:09:20,331 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:09:20,338 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:09:20,339 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:09:20,386 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:09:20,559 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 81) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:09:20,562 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:09:20,580 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:09:20,605 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:09:20,612 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:09:20,613 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:09:20,665 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:09:20,789 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 79) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:09:20,791 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:09:20,805 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:09:20,834 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:09:20,856 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 23ms
+2024-04-02 11:09:20,859 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:09:20,932 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:09:21,062 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 83) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:09:21,064 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:09:21,078 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:09:21,096 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:09:21,102 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 6ms
+2024-04-02 11:09:21,103 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:09:21,155 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:09:21,318 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 82) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:09:21,320 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:09:21,337 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:09:21,343 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:09:21,350 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:09:21,364 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:09:21,438 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:09:21,485 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:09:21,609 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 79) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:09:21,612 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:09:21,638 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:12:01,786 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:12:01,794 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:12:01,810 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:12:04,956 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:12:05,013 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:12:05,138 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 86) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:12:05,141 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:12:05,158 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:12:20,383 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:12:20,389 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 6ms
+2024-04-02 11:12:20,400 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:12:29,365 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:12:29,418 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:12:29,600 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 84) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:12:29,603 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:12:29,619 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:14:49,902 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:14:49,909 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:14:49,922 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:16:04,989 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:16:05,037 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:16:05,163 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 91) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:16:05,167 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:16:05,181 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:17:43,462 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:17:43,469 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:17:43,470 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:17:43,536 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:17:43,675 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 94) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:17:43,678 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:17:43,702 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:17:43,719 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:17:43,748 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 28ms
+2024-04-02 11:17:43,749 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:17:43,811 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:17:43,947 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 91) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:17:43,950 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:17:43,967 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:17:43,982 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:17:43,989 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:17:44,005 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:17:44,074 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:17:44,113 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:17:44,250 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 94) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:17:44,258 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:17:44,285 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:18:21,369 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:18:21,376 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:18:21,377 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:18:21,430 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:18:21,545 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 96) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:18:21,548 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 96) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:18:21,561 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:18:21,573 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 96) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:18:21,578 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 5ms
+2024-04-02 11:18:21,579 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:18:21,630 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:18:21,766 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 94) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:18:21,769 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:18:21,783 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:18:21,826 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:18:21,862 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 36ms
+2024-04-02 11:18:21,886 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:18:21,955 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:18:22,004 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:18:22,118 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 94) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:18:22,121 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:18:22,134 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:23:34,549 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:23:34,556 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:23:34,557 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:23:34,598 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:23:34,711 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 98) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:23:34,715 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:23:34,734 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:23:34,771 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:23:34,780 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 9ms
+2024-04-02 11:23:34,781 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:23:34,827 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:23:34,941 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 94) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:23:34,951 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:23:35,029 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:23:35,049 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:23:35,064 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 17ms
+2024-04-02 11:23:35,084 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:23:35,150 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:23:35,197 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:23:35,314 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 98) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:23:35,322 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:23:35,334 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2024-04-02 11:23:53,806 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:23:53,812 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:23:53,814 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:23:53,863 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:23:53,986 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 100) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:23:53,990 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 100) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:23:54,012 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:23:54,052 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 100) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:23:54,069 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 17ms
+2024-04-02 11:23:54,070 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:23:54,135 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:23:54,310 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 94) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:23:54,312 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:23:54,331 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:23:54,342 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:23:54,349 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+2024-04-02 11:23:54,350 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:23:54,400 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:23:54,523 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 94) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:23:54,525 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:23:54,539 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "ROOT.war"
+2024-04-02 11:23:54,553 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0022: Unregistered web context: '/' from server 'default-server'
+2024-04-02 11:23:54,559 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 6ms
+2024-04-02 11:23:54,579 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:23:54,647 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2024-04-02 11:23:54,698 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ROOT.war
+2024-04-02 11:23:54,813 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 100) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class tn.supcom.tos.fleet.FleetManagerApplication
+2024-04-02 11:23:54,816 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 100) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2024-04-02 11:23:54,833 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
